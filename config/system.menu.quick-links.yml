@@ -1,0 +1,10 @@
+uuid: 3694381d-df61-4714-a38d-7ff798261e37
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9r597HReVzAIwyXndhvt_mCR3iRxyhbfqDZhJFHDY94
+id: quick-links
+label: 'Quick Links'
+description: 'Convenient links to common pages'
+locked: false

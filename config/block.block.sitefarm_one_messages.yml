@@ -1,0 +1,22 @@
+uuid: d27285a9-13d3-4e89-87e1-4b741f73957e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: esr5_a1NU6pKsC26LNiLIkkb5udIUxxXzaeIWuXsjIc
+id: sitefarm_one_messages
+theme: sitefarm_one
+region: page_title
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

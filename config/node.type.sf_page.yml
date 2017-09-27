@@ -1,0 +1,20 @@
+uuid: b1e2d3e1-afc8-4346-b61c-e5b9ef02f3ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: RVjh5dYn7fPHFKkOy05rcL9HSWJylqjW5SW-DG6ybxc
+name: 'Basic Page'
+type: sf_page
+description: 'A standard page to display content which will not change regularly like an "About Us" page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

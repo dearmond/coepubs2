@@ -1,0 +1,22 @@
+uuid: 72d865ec-2f52-4a78-b6c8-3fe8620cdcb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: EWdAv3HUGWxHqHCeYqO-jdu5Jmv1ZbVdc9mPIcQTRoE
+id: sitefarm_one_search
+theme: sitefarm_one
+region: navigation
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

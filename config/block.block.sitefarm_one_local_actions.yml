@@ -1,0 +1,20 @@
+uuid: a67e2d0d-1a0d-4ea6-83a2-ecb7ab367ce6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: 1-AUylOxitS0Ir22ZrrLoj_KUo45Bdiqcta6bwV7q2Q
+id: sitefarm_one_local_actions
+theme: sitefarm_one
+region: pre_content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

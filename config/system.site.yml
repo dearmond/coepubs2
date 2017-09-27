@@ -1,0 +1,14 @@
+uuid: 1c6a4d7e-855f-42ad-b4a8-a6198755c7be
+name: coepubs2
+mail: sgdearmond@ucdavis.edu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

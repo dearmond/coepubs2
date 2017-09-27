@@ -1,0 +1,18 @@
+uuid: 75998024-a06c-42b2-b7a1-3313bf5a49fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: vfYM9sgjuk04cstTAIc5_sd01KpmrPcrx--HfEt3gMk
+name: sf_title_banner
+label: 'Title Banner'
+effects:
+  sf_title_banner_focal_point_scale_and_crop:
+    uuid: sf_title_banner_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 460

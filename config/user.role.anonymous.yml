@@ -1,0 +1,18 @@
+uuid: 082fb7e8-0280-4cb3-a8cc-bf372d666dd6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ynw6S4MxXUlvgYzAiVUsSZaqbdAoYPiXo8cIrJIwV6s
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view sharemessages'
+  - 'view trumba spud blocks'

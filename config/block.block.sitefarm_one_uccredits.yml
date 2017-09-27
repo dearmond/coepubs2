@@ -1,0 +1,30 @@
+uuid: 36e35185-8410-4898-9b22-884eb44a4992
+langcode: en
+status: true
+dependencies:
+  module:
+    - uc_credits
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: FEBvpjR1PPgPbBdFdm8o6JD0XKnTyWBHGwYtC2BbO08
+id: sitefarm_one_uccredits
+theme: sitefarm_one
+region: footer_credits
+weight: null
+provider: null
+plugin: uc_credits_block
+settings:
+  id: uc_credits_block
+  label: 'UC Credits'
+  provider: uc_credits
+  label_display: '0'
+  use_ucd_address: 1
+  use_help: 0
+  use_questions: 1
+  use_privacy: 1
+  use_principles: 1
+  use_university: 1
+  use_sitemap: 1
+  use_last_updated: 1
+visibility: {  }

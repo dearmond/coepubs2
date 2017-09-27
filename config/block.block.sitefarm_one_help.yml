@@ -1,0 +1,22 @@
+uuid: 9c8430b6-279a-47bc-9260-f027a1300707
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: U4EJhZcW4Rln4J9c2tTSdKnQucvpE5FmsEoGK0Esjr4
+id: sitefarm_one_help
+theme: sitefarm_one
+region: pre_content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
