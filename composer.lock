@@ -1681,11 +1681,11 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bibcite",
-                "reference": "79a51c9e503796c4988282e233f4ad4e6afab316"
+                "reference": "133a695a38b5639f2182d925809d2cd0e8740793"
             },
             "require": {
                 "academicpuma/citeproc-php": "~1.0",
-                "adci/full-name-parser": "^0.1.0",
+                "adci/full-name-parser": "^0.1",
                 "audiolabs/bibtexparser": "dev-master",
                 "caseyamcl/php-marc21": "~1.0",
                 "drupal/core": "*",
@@ -1700,8 +1700,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha4+28-dev",
-                    "datestamp": "1506617643",
+                    "version": "8.x-1.0-alpha4+30-dev",
+                    "datestamp": "1507630444",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1744,7 +1744,7 @@
                 "source": "http://cgit.drupalcode.org/bibcite",
                 "issues": "https://www.drupal.org/project/issues/bibcite"
             },
-            "time": "2017-10-10T10:02:15+00:00"
+            "time": "2017-10-16T05:39:55+00:00"
         },
         {
             "name": "drupal/cas",
