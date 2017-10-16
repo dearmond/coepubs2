@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e865b442737651a79180da55ac7001d",
+    "content-hash": "9195238a9b30709fa9e621c1992afdca",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -103,6 +103,52 @@
             ],
             "description": "Citation Style Language (CSL) Stylesheet Repository",
             "time": "2015-09-08T14:22:08+00:00"
+        },
+        {
+            "name": "adci/full-name-parser",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ADCI/full-name-parser.git",
+                "reference": "ed78a0822096cca2fca5f683a7747b1a9b292d7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ADCI/full-name-parser/zipball/ed78a0822096cca2fca5f683a7747b1a9b292d7b",
+                "reference": "ed78a0822096cca2fca5f683a7747b1a9b292d7b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8.28 <5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ADCI\\FullNameParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ADCI Solutions",
+                    "homepage": "https://www.adcisolutions.com"
+                }
+            ],
+            "description": "Parses a human name",
+            "keywords": [
+                "full name",
+                "name",
+                "parse",
+                "parser",
+                "php"
+            ],
+            "time": "2017-10-09T03:57:48+00:00"
         },
         {
             "name": "alchemy/zippy",
@@ -254,6 +300,43 @@
                 "parsing"
             ],
             "time": "2014-04-07T10:08:24+00:00"
+        },
+        {
+            "name": "caseyamcl/php-marc21",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caseyamcl/php-marc21.git",
+                "reference": "24571bf0690c0e0dde0b588a0c829d3e4c592efc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caseyamcl/php-marc21/zipball/24571bf0690c0e0dde0b588a0c829d3e4c592efc",
+                "reference": "24571bf0690c0e0dde0b588a0c829d3e4c592efc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PhpMarc": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "MARC Record handling tool for PHP",
+            "homepage": "https://github.com/caseyamc/php-marc21",
+            "keywords": [
+                "conversion",
+                "format",
+                "library",
+                "marc"
+            ],
+            "time": "2016-06-14T15:47:56+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -713,49 +796,6 @@
             ],
             "description": "Provides a way to patch Composer packages.",
             "time": "2017-03-19T18:18:52+00:00"
-        },
-        {
-            "name": "davidgorges/human-name-parser",
-            "version": "0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/davidgorges/HumanNameParser.php.git",
-                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/davidgorges/HumanNameParser.php/zipball/0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
-                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "HumanNameParser\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Gorges",
-                    "email": "david.gorges@leaphub.de"
-                },
-                {
-                    "name": "Jason Priem",
-                    "email": "jason@jasonpriem.com"
-                }
-            ],
-            "description": "Parses a human name",
-            "time": "2014-10-08T19:01:21+00:00"
         },
         {
             "name": "dflydev/dot-access-configuration",
@@ -1637,22 +1677,17 @@
         },
         {
             "name": "drupal/bibcite",
-            "version": "1.0.0-alpha4",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bibcite",
-                "reference": "8.x-1.0-alpha4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bibcite-8.x-1.0-alpha4.zip",
-                "reference": "8.x-1.0-alpha4",
-                "shasum": "a7970ca18d517de7b7f76430b5d11587e4cdf1be"
+                "reference": "133a695a38b5639f2182d925809d2cd0e8740793"
             },
             "require": {
                 "academicpuma/citeproc-php": "~1.0",
+                "adci/full-name-parser": "^0.1",
                 "audiolabs/bibtexparser": "dev-master",
-                "davidgorges/human-name-parser": "~0.2",
+                "caseyamcl/php-marc21": "~1.0",
                 "drupal/core": "*",
                 "technosophos/libris": "~2.0"
             },
@@ -1665,8 +1700,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha4",
-                    "datestamp": "1493111943",
+                    "version": "8.x-1.0-alpha4+30-dev",
+                    "datestamp": "1507630444",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1708,7 +1743,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/bibcite",
                 "issues": "https://www.drupal.org/project/issues/bibcite"
-            }
+            },
+            "time": "2017-10-16T05:39:55+00:00"
         },
         {
             "name": "drupal/cas",
@@ -7520,7 +7556,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:ietwebdev/sitefarm.git",
-                "reference": "beb86c712963358fe7a0ef3b62dc099d26673bdd"
+                "reference": "284947e8c61df3e654959fe871d93a9795786ce9"
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -7639,7 +7675,7 @@
                 "issues": "https://ucdavis.jira.com/projects/SITEFARM/issues",
                 "source": "https://bitbucket.org/ietwebdev/sitefarm/src/8.x-1.x"
             },
-            "time": "2017-09-21T18:14:05+00:00"
+            "time": "2017-10-02T19:50:18+00:00"
         },
         {
             "name": "ucdavis/sitefarm_one",
@@ -8698,6 +8734,49 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "davidgorges/human-name-parser",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidgorges/HumanNameParser.php.git",
+                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidgorges/HumanNameParser.php/zipball/0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
+                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HumanNameParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Gorges",
+                    "email": "david.gorges@leaphub.de"
+                },
+                {
+                    "name": "Jason Priem",
+                    "email": "jason@jasonpriem.com"
+                }
+            ],
+            "description": "Parses a human name",
+            "time": "2014-10-08T19:01:21+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -10115,7 +10194,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/bibcite": 15,
+        "drupal/bibcite": 20,
         "ucdavis/sitefarm": 20
     },
     "prefer-stable": true,
